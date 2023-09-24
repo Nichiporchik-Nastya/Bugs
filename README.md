@@ -1,0 +1,2 @@
+# Bugs
+seo education project
