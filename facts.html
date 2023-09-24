@@ -10,7 +10,7 @@
 
     <title>Факты о разных видах насекомых и о том, что с ними связано</title>
     <meta name="description"
-        content="Увлекательные и небанальные факты из жизни обычных насекомых, которые никого не оставят разнодушными">
+        content="Актуальные факты из жизни обычных насекомых, которые никого не оставят равнодушными. Расширьте свои знания прямо сейчас!">
     <meta name="keywords" content="бабочка, паук, жук" />
     
     <link rel="stylesheet" href="css/normalize.css">
@@ -71,12 +71,12 @@
                 </nav>
             </в>
 
-            <article class="article" id="monarh">
+            <article class="article" id="monarh" itemscope itemtype="http://schema.org/Article">
                 <div class="article__title-block">
-                    <h3 class="article__title">Бабочка Монарх и Ваточник</h3>
+                    <h3 class="article__title" itemprop="headline">Бабочка Монарх и Ваточник</h3>
                     <p class="article__subtitle accent">Danaus plexippus</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">Самка бабочки Монарха откладывает яйца на непростой цветок. Это
                             единственное растение в округе, которым питается её потомство. Но Ваточник способен
@@ -93,16 +93,16 @@
                                 собственных опылителей и сохраняет баланс в этих взаимозависимых отношениях.</strong>
                         </p>
                     </div>
-                    <img class="article__img" src="./img/monarh.png" alt="">
+                    <img class="article__img" itemprop="image" src="./img/monarh.png" alt="Бабочка Монарх" title="Монарх, взрослая особь">
                 </div>
             </article>
 
-            <article class="article" id="spider">
+            <article class="article" id="spider" itemscope itemtype="http://schema.org/Article">
                 <div class="article__title-block">
-                    <h3 class="article__title">Паук-муравьед</h3>
+                    <h3 class="article__title" itemprop="headline">Паук-муравьед</h3>
                     <p class="article__subtitle accent">Zodariidae</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">Непростой паук бродит в окрестностях муравейника, что уже весьма
                             рискованно. Он изучает движение и поведение муравьёв.
@@ -120,16 +120,15 @@
                             соки.
                         </p>
                     </div>
-                    <!-- <img class="article__img" src="./img/monarh.png" alt=""> -->
                 </div>
             </article>
 
-            <article class="article" id="ysach">
+            <article class="article" id="ysach" itemscope itemtype="http://schema.org/Article">
                 <div class="article__title-block">
-                    <h3 class="article__title">Жук-дровосек или усач</h3>
+                    <h3 class="article__title" itemprop="headline">Жук-дровосек или усач</h3>
                     <p class="article__subtitle accent">Cerambycidae</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">Может показаться, что это какой‑то персонаж из фильма ужасов.
                             Но это просто Жук-усач. <strong class="main-info">Таких насчитывается более 26 тыс. видов
@@ -148,16 +147,15 @@
                             огромный финансовый ущерб человеку, разрушая любые деревянные постройки и здоровые леса.
                         </p>
                     </div>
-                    <img class="article__img" src="./img/ysach.png" alt="">
+                    <img class="article__img" itemprop="image" src="./img/ysach.png" alt="Размеры усача" title="Жук-усач на ладони">
                 </div>
             </article>
 
-            <article class="article" id="etimology">
+            <article class="article" id="etimology" itemscope itemtype="http://schema.org/Article">
                 <div class="article__title-block">
-                    <h3 class="article__title">Происхождение названий насекомых</h3>
-                    <!-- <p class="article__subtitle accent">Cerambycidae</p> -->
+                    <h3 class="article__title" itemprop="headline">Происхождение названий насекомых</h3>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">
                             Инсектарии бывают разнообразными, предназначенными для содержания только конкретного типа
@@ -199,17 +197,19 @@
             <div class="article__title-block">
                 <h2 class="article__title">Что вы не знали про инсектарий</h2>
                 <p class="article__subtitle accent">Colias philodice</p>
-                <p class="article__subtitle btn accent">Читать <img src="./img/light-arrow.svg" alt=""></p>
+                <p class="article__subtitle btn accent">Читать 
+                    <img src="./img/light-arrow.svg" alt="Стрелка вправо" title="Ссылка для перехода">
+                </p>
             </div>
             <div class="article__info-block">
-                <img class="article__img" src="./img/babochki.png" alt="">
+                <img class="article__img" src="./img/babochki.png" alt="Бабочки-капусницы" title="Обложка блока">
             </div>
         </a>
 
     </main>
 
     <footer class="container footer">
-        <a href="#top">Наверх</a>
+        <a class="btn-to-top" href="#top">Наверх</a>
         <div class="footer-info accent">
             Все права принадлежат их правообладателям<br />
             Bugs! &copy; 2023

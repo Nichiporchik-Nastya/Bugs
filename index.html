@@ -10,7 +10,7 @@
 
     <title>Основная информация и факты о насекомых</title>
     <meta name="description"
-        content="Полезные сведения, ответы на интересующие вопросы, таксономические (латинские) названия насекомых">
+        content="Здесь вы найдёте полезные сведения, ответы на интересующие вопросы, таксономические (латинские) названия насекомых и увлекательные факты">
     <meta name="keywords" content="членистоногие, паукообразные, жуки" />
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -50,39 +50,39 @@
                 <img src="./img/arrow.svg" alt="Стрелка вправо" title="Кнопка для перехода">
             </a>
 
-            <article class="unique-article">
+            <article class="unique-article" itemscope itemtype="http://schema.org/Article">
                 <div class="unique-article__text">
-                    <h2 class="unique-article__title">Истинные или жесткокрылые жуки</h2>
-                    <p class="unique-article__paragraph">
+                    <h2 class="unique-article__title" itemprop="headline">Истинные или жесткокрылые жуки</h2>
+                    <p class="unique-article__paragraph" itemprop="articleBody">
                         Главное отличие жёсткокрылых жуков от других насекомых: <strong class="main-info">передняя пара
                             крыльев превратилась в твёрдые хитинизированные надкрылья.</strong>
                     </p>
-                    <p class="unique-article__paragraph">Божья коровка (Coccinellidae), майский жук (Melolontha),
+                    <p class="unique-article__paragraph" itemprop="articleBody">Божья коровка (Coccinellidae), майский жук (Melolontha),
                         листоед (Chrysomelidae) и жужелица (Carabidae) — всё это примеры истинных жуков.</p>
                 </div>
                 <div class="unique-article__img-wrapper">
                     <div class="unique-article__img-block">
-                        <img class="unique-article__img" src="./img/zhyk1.png" alt="Щитник средиземноморский"
+                        <img class="unique-article__img" itemprop="image" src="./img/zhyk1.png" alt="Щитник средиземноморский"
                             title="Отличие передней пары крыльевв от задней">
                         <p class="unique-article__subtitle accent">Carpocoris mediterraneus</p>
                     </div>
                     <div class="unique-article__img-block">
-                        <img class="unique-article__img" src="./img/zhyk2.png" alt="[Название на русском]"
+                        <img class="unique-article__img" itemprop="image" src="./img/zhyk2.png" alt="Вид крупным планом"
                             title="Представитель жесткокрылых жуков">
                         <p class="unique-article__subtitle accent">Caenocoris nerii</p>
                     </div>
                 </div>
             </article>
 
-            <article class="article">
+            <article class="article" itemscope itemtype="http://schema.org/Article">
                 <div class="article__title-block">
-                    <img class="article__title-block-img" src="./img/payk.png" alt="Крестовик обыкновенный"
+                    <img class="article__title-block-img" itemprop="image" src="./img/payk.png" alt="Крестовик обыкновенный"
                         title="Паукообразное">
                     <p class="article__subtitle accent">Araneus diadematus</p>
                 </div>
                 <div class="article__info-block">
-                    <h2 class="article__title">Паук — не насекомое</h2>
-                    <div class="article__text">
+                    <h2 class="article__title" itemprop="headline">Паук — не насекомое</h2>
+                    <div class="article__text" itemprop="articleBody">
                         <p class="article__paragraph">Паук только внешне походит на насекомых. Это не удивительно. Они
                             родственники, т.к. относятся к общему типу — Членистоногие.</p>
                         <p class="article__paragraph">
@@ -104,54 +104,6 @@
             </article>
         </section>
 
-        <!-- <section class="section">
-            <h2 class="section__title">Ответы на ваши вопросы</h2>
-
-            <div class="blog-cards-wrapper">
-                <a href="./article2.html" class="blog-card">
-                    <h4 class="blog-card__title">
-                        Как? Защита от клещей и комаров
-                    </h4>
-                    <div class="blog-card__info-block">
-                        <div class="blog-card__reading-time accent">8 минут</div>
-                        <div class="blog-card__publishing-date accent">26.05.2023</div>
-                    </div>
-                    <p class="blog-card__text">
-                        Неочевидные и эффективные способы защититься от укусов этим летом.
-                    </p>
-                    <img class="blog-card__img" src="./img/komar.png" alt="">
-                </a>
-
-                <a href="./article1.html" class="blog-card">
-                    <h4 class="blog-card__title">
-                        Как? Свой инсектарий
-                    </h4>
-                    <div class="blog-card__info-block">
-                        <div class="blog-card__reading-time accent">12 минут</div>
-                        <div class="blog-card__publishing-date accent">04.09.2023</div>
-                    </div>
-                    <p class="blog-card__text">
-                        Для настоящих любителей, ценителей и исследователей насекомых и им подобных.
-                    </p>
-                    <img class="blog-card__img" src="./img/insectary.png" alt="">
-                </a>
-
-                <a href="./article3.html" class="blog-card">
-                    <h4 class="blog-card__title">
-                        Как? Вести себя при укусе пчелы, осы, шершня
-                    </h4>
-                    <div class="blog-card__info-block">
-                        <div class="blog-card__reading-time accent">6 минут</div>
-                        <div class="blog-card__publishing-date accent">18.06.2023</div>
-                    </div>
-                    <p class="blog-card__text">
-                        Для настоящих любителей, ценителей и исследователей насекомых и им подобных.
-                    </p>
-                    <img class="blog-card__img" src="./img/shershen.png" alt="">
-                </a>
-            </div>
-        </section> -->
-
         <a href="./facts.html" class="article">
             <div class="article__title-block">
                 <h2 class="article__title">Факты о насекомых</h2>
@@ -167,7 +119,7 @@
     </main>
 
     <footer class="container footer">
-        <a href="#top">Наверх</a>
+        <a class="btn-to-top" href="#top">Наверх</a>
         <div class="footer-info accent">
             Все права принадлежат их правообладателям<br />
             Bugs! &copy; 2023

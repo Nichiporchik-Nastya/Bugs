@@ -8,7 +8,11 @@
 
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 
-    <title>Bugs! — Факты о разных видах насекомых и особенности необычных насекомых</title>
+    <title>Инсектарий. Насекомые, которых можно держать дома</title>
+    <meta name="description"
+        content="Особенности таких насекомых как сверчок и медведка в качестве питомцев. Что такое формикарий простыми словами">
+    <meta name="keywords" content="инсектарий, формикарий, сверчок, медведка" />
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,9 +43,9 @@
     </header>
 
     <main class="container">
-        <section class="section">
+        <section class="section" itemscope itemtype="http://schema.org/Article">
             <div class="section__main-block">
-                <h1 class="section__title">Что вы не знали про инсектарий</h1>
+                <h1 class="section__title" itemprop="headline">Что вы не знали про инсектарий</h1>
                 <p class="section__text">
                     Для настоящих любителей, ценителей и исследователей насекомых и им подобных
                 </p>
@@ -50,10 +54,9 @@
             <article class="article">
                 <div class="article__title-block">
                     <h3 class="article__title">Инсектарии могут быть самыми разными</h3>
-                    <!-- <p class="article__subtitle accent">Danaus plexippus</p> -->
                 </div>
                 <div class="article__info-block">
-                    <div class="article__text">
+                    <div class="article__text" itemprop="articleBody">
                         <p class="article__paragraph">
                             В инсектариях содержат почти все классы насекомых. Это всевозможные бабочки, тараканы,
                             термиты, сверчки, палочники, богомолы и другие как наземные, так и водные виды. <strong
@@ -68,8 +71,8 @@
                         </p>
 
                     </div>
-                    <img class="article__img" src="./img/insectary.png" alt="" style="height:400px; object-fit:cover;">
-                    <div class="article__text">
+                    <img class="article__img" itemprop="image" src="./img/insectary.png" alt="Инсектарий" style="height:400px; object-fit:cover;" alt="Внешний вид инсектария" title="Пример инсектария">
+                    <div class="article__text" itemprop="articleBody">
                         <p class="article__paragraph">
                             Таким образом конструкция инсектариев для разных видов насекомых будет сильно отличаться.
                             Например, можно взять большую стеклянную банку или простой аквариум, адаптированный
@@ -90,7 +93,6 @@
                                 колонии.
                             </p>
                         </div>
-
                     </div>
                 </div>
             </article>
@@ -100,7 +102,7 @@
                     <h3 class="article__title">Не всех насекомых можно содержать в домашних условиях</h3>
 
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">
                             Из-за огромного разнообразия насекомых невозможно привести в одной статье сразу все примеры
@@ -131,7 +133,6 @@
                             других насекомых, кроме приведённых ниже.
                         </p>
                     </div>
-                    <!-- <img class="article__img" src="./img/monarh.png" alt=""> -->
                 </div>
             </article>
 
@@ -140,7 +141,7 @@
                     <h3 class="article__title">Домовой сверчок</h3>
                     <p class="article__subtitle accent">Acheta domesticus</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">
                             Домовой сверчок — это известный обитатель старых деревянных домов с печами, которые
@@ -176,7 +177,7 @@
                     <h3 class="article__title">Полевой сверчок</h3>
                     <p class="article__subtitle accent">Gryllus campestris</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">
                             Отличается от своего домового собрата не только <a
@@ -208,7 +209,7 @@
                     <h3 class="article__title">Обыкновенная медведка</h3>
                     <p class="article__subtitle accent">Gryllotalpa</p>
                 </div>
-                <div class="article__info-block">
+                <div class="article__info-block" itemprop="articleBody">
                     <div class="article__text">
                         <p class="article__paragraph">
                             Это близкий родственник сверчков и кузнечиков из отряда Прямокрылых. Имеет достаточно
@@ -241,17 +242,19 @@
             <div class="article__title-block">
                 <h2 class="article__title">Факты о насекомых</h2>
                 <p class="article__subtitle accent">Colias philodice</p>
-                <p class="article__subtitle btn accent">Читать <img src="./img/light-arrow.svg" alt=""></p>
+                <p class="article__subtitle btn accent">Читать 
+                    <img src="./img/light-arrow.svg" alt="Стрелка вправо" title="Ссылка для перехода">
+                </p>
             </div>
             <div class="article__info-block">
-                <img class="article__img" src="./img/babochki.png" alt="">
+                <img class="article__img" src="./img/babochki.png" alt="Бабочки-капусницы" title="Обложка блока">
             </div>
         </a>
 
     </main>
 
     <footer class="container footer">
-        <a href="#top">Наверх</a>
+        <a class="btn-to-top" href="#top">Наверх</a>
         <div class="footer-info accent">
             Все права принадлежат их правообладателям<br />
             Bugs! &copy; 2023

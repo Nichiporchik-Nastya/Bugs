@@ -16,6 +16,11 @@ body {
   font-weight: 100;
 }
 
+.btn-to-top {
+  background-color: #f6fdf5;
+  padding: 4px;
+}
+
 .main-info {
   color: #050505;
 }
