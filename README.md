@@ -1,2 +1,1 @@
-# [Bugs](https://nichiporchik-nastya.github.io/Bugs/)
-seo education project
+# [Перейти на сайт | Go to the site](https://nichiporchik-nastya.github.io/Bugs/)
